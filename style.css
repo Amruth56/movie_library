@@ -13,14 +13,6 @@ body {
   align-items: center;
 }
 
-.sidebar {
-  width: 50px;
-  height: 100%;
-  background-color: black;
-  position: fixed;
-  top: 0;
-}
-
 .navbar-container {
   display: flex;
   align-items: center;
@@ -90,12 +82,41 @@ body {
   color: goldenrod;
 }
 
-.toggle-ball{
-    width: 18px;
-    height: 18px;
-    background-color:black;
-    position: absolute;
-    right: 1px;
-    border-radius: 50%;
-    cursor: pointer;
+.toggle-ball {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: absolute;
+  right: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 50px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:80px;
+  /* justify-content: space-around; */
+}
+
+.left-menu-icon{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 45px;
+}
+
+.container{
+  background-color: #151515;
+  height: calc(100vh - 50px);
+  color: white;
+}
+
+.content-container{
+  margin-left: 52px ;
 }

@@ -101,22 +101,47 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top:80px;
+  padding-top: 80px;
   /* justify-content: space-around; */
 }
 
-.left-menu-icon{
+.left-menu-icon {
   color: white;
   font-size: 23px;
   margin-bottom: 45px;
 }
 
-.container{
+.container {
   background-color: #151515;
   height: calc(100vh - 50px);
   color: white;
 }
 
-.content-container{
-  margin-left: 52px ;
+.content-container {
+  margin-left: 52px;
+}
+
+.featured-content {
+  height: 50vh;
+  /* background-color: tomato; */
+  padding: 50px;
+}
+
+.featured-title {
+  width: 400px;
+}
+
+.featured-desc {
+  width: 500px;
+  margin: 40px 0;
+}
+
+.featured-button {
+  background-color: greenyellow;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  /* outline:none; */
+  border: none;
+  font-weight: bold;
 }

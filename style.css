@@ -143,10 +143,12 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .movie-list-container {
   padding: 0 20px;
+  cursor: pointer;
 }
 
 .movie-list-wrapper {
@@ -224,6 +226,7 @@ body {
   left: 50px;
   opacity: 0;
   transition: 1s all ease-in-out;
+ 
 }
 
 .arrow {
